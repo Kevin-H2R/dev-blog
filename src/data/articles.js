@@ -1,0 +1,18 @@
+export const articles = [
+  { title: "1st article", subtitle: "1st subtitles" },
+  { title: "2nd article", subtitle: "2nd subtitles" },
+  { title: "3rd article", subtitle: "3rd subtitles" },
+  { title: "4th article", subtitle: "4th subtitles" },
+  { title: "5th article", subtitle: "5th subtitles" },
+  { title: "6th article", subtitle: "6th subtitles" },
+  { title: "7th article", subtitle: "7th subtitles" },
+  { title: "8th article", subtitle: "8th subtitles" },
+  { title: "9th article", subtitle: "9th subtitles" },
+  { title: "10th article", subtitle: "10th subtitles" },
+  { title: "11th article", subtitle: "11th subtitles" },
+  { title: "12th article", subtitle: "12th subtitles" },
+  { title: "13th article", subtitle: "13th subtitles" },
+  { title: "14th article", subtitle: "14th subtitles" },
+  { title: "15th article", subtitle: "15th subtitles" },
+  { title: "16th article", subtitle: "16th subtitles" },
+];
