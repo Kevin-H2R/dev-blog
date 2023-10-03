@@ -1,11 +1,11 @@
 export const articles = [
   {
     id: 1,
-    title: "1st article",
-    subtitle: "1st subtitles",
-    date: "2023-09-07",
-    category: "Architecture",
-    thumbnail: "architecture.jpeg",
+    title: "Leetcode 1512",
+    subtitle: "Number of good pairs -- Easy",
+    date: "2023-10-03",
+    category: "Leetcode",
+    thumbnail: "leetcode.jpg",
   },
   {
     id: 1,
