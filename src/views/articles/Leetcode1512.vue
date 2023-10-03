@@ -77,7 +77,8 @@
       <div class="section">
         <h3 class="article__section">After thoughts</h3>
         <p>
-          Very easy one. I don't think there's a way to go below this time complexity.
+          Very easy one. I don't think there's a way to go below this time 
+          complexity as we have to check every items at least once.
         </p>
       </div>
     </v-col>
