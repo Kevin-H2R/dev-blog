@@ -54,12 +54,12 @@
         />
       </div>
 
-      <div class="section">
+      <!-- <div class="section">
         <h3>Perfs</h3>
         <img class="article__image"
           src="https://kebinou-dev-blog.s3.ap-northeast-2.amazonaws.com/leetcode/1512/perfs.jpg"
         />
-      </div>
+      </div> -->
       <div class="section">
         <h3 class="section_title">Complexity</h3>
         <h4>Time</h4>
