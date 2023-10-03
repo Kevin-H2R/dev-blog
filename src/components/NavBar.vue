@@ -16,8 +16,8 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
 .app-bar {
-  border-bottom: 1px solid $background-darken;
-  background-color: $background !important;
+  border-bottom: 1px solid $white-darken;
+  background-color: $white !important;
   height: 32px;
 }
 .categories {
