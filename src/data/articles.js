@@ -7,4 +7,12 @@ export const articles = [
     category: "Leetcode",
     thumbnail: "leetcode.jpg",
   },
+  {
+    id: 2,
+    title: "OOTD",
+    subtitle: "Episode 1 - Presentation",
+    date: "2023-10-24",
+    category: "OOTD",
+    thumbnail: "leetcode.jpg",
+  },
 ];

@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import Leetcode1512 from "../views/articles/Leetcode1512";
+import OotdEpisode1 from "../views/articles/OotdEpisode1";
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,11 @@ const routes = [
     path: "/article/1",
     name: "leetcode-1512",
     component: Leetcode1512,
+  },
+  {
+    path: "/article/2",
+    name: "ootd-episode-1",
+    component: OotdEpisode1,
   },
 ];
 
