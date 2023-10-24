@@ -6,6 +6,9 @@
       <router-link class="category" to="/leetcode">Leetcode</router-link>
       <router-link class="category" to="/random">Random</router-link>
     </div>
+      <v-btn density="compact" text>
+        <v-icon color="green">mdi-plus</v-icon>
+      </v-btn>
   </div>
 </template>
 <script>
