@@ -17,6 +17,10 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
 
+.content {
+  height: 100%;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
