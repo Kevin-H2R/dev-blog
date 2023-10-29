@@ -2,15 +2,7 @@
   <v-col>
     <v-row class="main">
       <v-col cols="12" sm="10" md="8">
-        <div class="main__title">
-          My engineer journal.
-        </div>
-        <div class="main__subtitle">
-          I am Kevin, French software engineer. Currently in South Korea, always looking for new smart ideas and business.
-        </div>
-        <div class="main__caption">
-          Coding problems, architecture solutions, anything I feel relevent sharing.
-        </div>
+        
       </v-col>
     </v-row>
     <div class="home d-flex justify-center">
