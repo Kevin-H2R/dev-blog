@@ -1,6 +1,6 @@
 <template>
-  <v-container class="article">
-    <v-col>
+  <v-container class="article d-flex justify-center">
+    <v-col cols="12" sm="10" md="8">
       <h1 class="article__title">OOTD</h1>
       <h2 class="article__subtitle">Episode 1 - Presentation</h2>
       <div class="section">
