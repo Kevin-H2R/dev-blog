@@ -5,8 +5,8 @@
       <v-col v-for="(article, index) in articles" :key="'article_' + index"
         cols="12" sm="8" md="6"
       >
-        <v-card :to="'/article/' + article.id">
-          <v-img :src="getArticleImg(article.thumbnail)"  />
+        <v-card :to="'/article/' + article.id" class="article-card" hover>
+          <v-img :src="getArticleImg(article.thumbnail)" class="article-card__image"/>
           <v-card-title>
             {{ article.title }}
           </v-card-title>
@@ -66,6 +66,12 @@ export default {
   }
   &__caption {
     font-size: 1.5em;
+  }
+}
+
+.article-card {
+  &__image {
+    aspect-ratio: 2;
   }
 }
 </style>

@@ -13,6 +13,6 @@ export const articles = [
     subtitle: "Episode 1 - Presentation",
     date: "2023-10-24",
     category: "OOTD",
-    thumbnail: "leetcode.jpg",
+    thumbnail: "ootdlogo.jpg",
   },
 ];
