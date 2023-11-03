@@ -5,6 +5,7 @@ import VueRouter from "vue-router";
 import ArticleListView from '../views/ArticleListView.vue'
 import Leetcode1512 from "../views/articles/Leetcode1512";
 import OotdEpisode1 from "../views/articles/OotdEpisode1";
+import OotdEpisode2 from "../views/articles/OotdEpisode2";
 
 Vue.use(VueRouter);
 
@@ -32,6 +33,12 @@ const routes = [
     path: "/article/2",
     name: "ootd-episode-1",
     component: OotdEpisode1,
+  },
+  
+  {
+    path: "/article/3",
+    name: "ootd-episode-2",
+    component: OotdEpisode2,
   },
 ];
 

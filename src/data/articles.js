@@ -15,4 +15,12 @@ export const articles = [
     category: "OOTD",
     thumbnail: "ootdlogo.jpg",
   },
+  {
+    id: 3,
+    title: "OOTD",
+    subtitle: "Episode 2 - Architecture",
+    date: "2023-11-04",
+    category: "OOTD",
+    thumbnail: "ootdlogo.jpg",
+  },
 ];
