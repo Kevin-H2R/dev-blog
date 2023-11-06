@@ -1,9 +1,7 @@
 <template>
   <v-app>
     <nav-bar />
-    <div class="content">
-      <router-view />
-    </div>
+    <router-view />
   </v-app>
 </template>
 <script>
@@ -16,10 +14,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
-
-.content {
-  height: 100%;
-}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

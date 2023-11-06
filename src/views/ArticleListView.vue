@@ -1,5 +1,16 @@
 <template>
-<v-container fluid class="d-flex flex-wrap">
+<v-container fluid class="article-view d-flex flex-wrap">
+  <v-col class="main" cols="12" sm="2" md="4">
+    <div class="main__title">
+      My engineer journal.
+    </div>
+    <div class="main__subtitle">
+      I am Kevin, French software engineer. Currently in South Korea, always looking for new smart ideas and business.
+    </div>
+    <div class="main__caption">
+      Coding problems, architecture solutions, anything I feel relevent sharing.
+    </div>
+  </v-col>
   <v-col cols="12" sm="10" md="8" style="overflow-y: auto;">
     <v-row wrap>
       <v-col v-for="(article, index) in articles" :key="'article_' + index"
@@ -22,17 +33,6 @@
       </v-col>
     </v-row>
   </v-col>
-  <v-col class="main" cols="12" sm="2" md="4">
-    <div class="main__title">
-      My engineer journal.
-    </div>
-    <div class="main__subtitle">
-      I am Kevin, French software engineer. Currently in South Korea, always looking for new smart ideas and business.
-    </div>
-    <div class="main__caption">
-      Coding problems, architecture solutions, anything I feel relevent sharing.
-    </div>
-  </v-col>
 
 </v-container>    
 </template>
@@ -53,8 +53,10 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
+.article-view {
+  height: 100vh;
+}
 .main {
-  text-align: right;
   &__title {
     font-size: 3em;
     font-weight: bold;
