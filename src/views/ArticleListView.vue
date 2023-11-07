@@ -11,7 +11,7 @@
       Coding problems, architecture solutions, anything I feel relevent sharing.
     </div>
   </v-col>
-  <v-col cols="12" sm="10" md="8" style="overflow-y: auto;">
+  <v-col cols="12" sm="10" md="8" class="articles-container">
     <v-row wrap>
       <v-col v-for="(article, index) in articles" :key="'article_' + index"
         cols="12" sm="8" md="6"
@@ -54,7 +54,11 @@ export default {
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
 .article-view {
-  height: 100vh;
+  height: 100%;
+}
+.articles-container {
+  height: 100%;
+  overflow-y: auto;
 }
 .main {
   &__title {

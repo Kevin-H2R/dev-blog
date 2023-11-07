@@ -5,11 +5,6 @@
     </router-link>
     <div>Kebinou's dev blog</div>
     <div></div>
-    <!-- <div class="categories d-flex flex-grow-1 justify-center">
-      <router-link class="category" to="/">All</router-link>
-      <router-link class="category" to="/leetcode">Leetcode</router-link>
-      <router-link class="category" to="/random">Random</router-link>
-    </div> -->
   </div>
 </template>
 <script>

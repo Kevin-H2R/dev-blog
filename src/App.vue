@@ -1,7 +1,9 @@
 <template>
   <v-app>
-    <nav-bar />
-    <router-view />
+    <div class="main-container">
+      <nav-bar />
+      <router-view />
+    </div>
   </v-app>
 </template>
 <script>
@@ -14,6 +16,12 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
+
+.main-container {
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
