@@ -29,6 +29,6 @@ export const articles = [
     subtitle: "Handling files in requests",
     date: "2023-11-14",
     category: "Code",
-    thumbnail: "ootdlogo.jpg",
+    thumbnail: "code.jpg",
   },
 ];
