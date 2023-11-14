@@ -6,6 +6,7 @@ import ArticleListView from '../views/ArticleListView.vue'
 import Leetcode1512 from "../views/articles/Leetcode1512";
 import OotdEpisode1 from "../views/articles/OotdEpisode1";
 import OotdEpisode2 from "../views/articles/OotdEpisode2";
+import AwsLambdaFiles from "../views/articles/AwsLambdaFiles";
 
 Vue.use(VueRouter);
 
@@ -34,11 +35,15 @@ const routes = [
     name: "ootd-episode-1",
     component: OotdEpisode1,
   },
-  
   {
     path: "/article/3",
     name: "ootd-episode-2",
     component: OotdEpisode2,
+  },
+  {
+    path: "/article/4",
+    name: "aws-lambda-files",
+    component: AwsLambdaFiles,
   },
 ];
 

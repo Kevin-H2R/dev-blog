@@ -23,4 +23,12 @@ export const articles = [
     category: "OOTD",
     thumbnail: "ootdlogo.jpg",
   },
+  {
+    id: 4,
+    title: "AWS Lambda",
+    subtitle: "Handling files in requests",
+    date: "2023-11-14",
+    category: "Code",
+    thumbnail: "ootdlogo.jpg",
+  },
 ];
