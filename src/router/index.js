@@ -26,22 +26,22 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
   {
-    path: "/article/1",
+    path: "/article/leetcode-1512",
     name: "leetcode-1512",
     component: Leetcode1512,
   },
   {
-    path: "/article/2",
+    path: "/article/ootd-episode-1",
     name: "ootd-episode-1",
     component: OotdEpisode1,
   },
   {
-    path: "/article/3",
+    path: "/article/ootd-episode-2",
     name: "ootd-episode-2",
     component: OotdEpisode2,
   },
   {
-    path: "/article/4",
+    path: "/article/aws-lambda-files",
     name: "aws-lambda-files",
     component: AwsLambdaFiles,
   },
