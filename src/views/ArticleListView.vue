@@ -12,7 +12,7 @@
     </div>
   </v-col>
   <v-col cols="12" sm="10" md="8" class="articles-container">
-    <v-row wrap>
+    <v-row wrap justify="center">
       <v-col v-for="(article, index) in articles" :key="'article_' + index"
         cols="12" sm="8" md="6"
       >
