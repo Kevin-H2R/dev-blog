@@ -6,7 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 Vue.use(VueGtag, {
-  id: 'G-5FK8YSJ92Z'
+  config: {
+    id: 'G-5FK8YSJ92Z'
+  }
 }, router)
 
 new Vue({
