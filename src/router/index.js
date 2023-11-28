@@ -7,7 +7,7 @@ import Leetcode1512 from "../views/articles/Leetcode1512";
 import OotdEpisode1 from "../views/articles/OotdEpisode1";
 import OotdEpisode2 from "../views/articles/OotdEpisode2";
 import AwsLambdaFiles from "../views/articles/AwsLambdaFiles";
-
+import SeoulHackathon from "../views/articles/SeoulHackathon"
 Vue.use(VueRouter);
 
 const routes = [
@@ -35,6 +35,11 @@ const routes = [
     path: "/article/aws-lambda-files",
     name: "aws-lambda-files",
     component: AwsLambdaFiles,
+  },
+  {
+    path: "/article/seoul-tech-impact-hackathon",
+    name: "seoul-hackathon",
+    component: SeoulHackathon,
   },
 ];
 

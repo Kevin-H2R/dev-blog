@@ -35,4 +35,13 @@ export const articles = [
     category: "Code",
     thumbnail: "code.jpg",
   },
+  {
+    id: 5,
+    title: "Seoul Tech Impact Hackathon 2023",
+    link: "seoul-tech-impact-hackathon",
+    subtitle: "Coding for a cause",
+    date: "2023-11-28",
+    category: "Code",
+    thumbnail: "seoulTechImpact.jpg",
+  },
 ];

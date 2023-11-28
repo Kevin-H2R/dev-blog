@@ -42,7 +42,7 @@ import { articles } from '@/data/articles';
 export default {
     name: 'ArticleListView',
     computed: {
-        articles: () => articles
+        articles: () => articles.reverse()
     },
     methods: {
         getArticleImg: function(thumbnail) {
