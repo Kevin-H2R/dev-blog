@@ -1,5 +1,5 @@
 <template>
-  <v-container class="article d-flex justify-center">
+  <v-container fluid class="article d-flex justify-center">
     <v-col cols="12" sm="10" md="8">
       <h1 class="article__title">Handling files from request in AWS lambda</h1>
       <h2 class="article__subtitle">Typescript</h2>

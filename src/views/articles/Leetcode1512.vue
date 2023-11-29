@@ -1,5 +1,5 @@
 <template>
-  <v-container class="article">
+  <v-container fluid class="article">
     <v-col>
       <h1 class="article__title">Leetcode of the Day</h1>
       <h2 class="article__subtitle">1512 - Number of Good Pairs</h2>

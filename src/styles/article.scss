@@ -1,6 +1,9 @@
+@import "./theme.scss";
+
 .article {
   letter-spacing: 0.1em;
   line-height: 1.8em;
+  background-color: $white;
   &__title {
     font-size: 3em;
     text-align: center;

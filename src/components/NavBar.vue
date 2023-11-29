@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex align-center justify-space-between app-bar">
+  <div class="d-flex align-center justify-space-between app-bar" @click="goHome()">
     <router-link to="/" style="height: 32px;">
       <img src="@/assets/logo.jpeg" class="logo" />
     </router-link>
@@ -9,19 +9,27 @@
 </template>
 <script>
 import { articles } from '@/data/articles';
+import router from '@/router';
 export default {
   name: "NavBar",
   computed: {
     articles: () => articles
+  },
+  methods: {
+    goHome: function () {
+      if (router.currentRoute.fullPath === '/') return
+      router.push('/')
+    }
   }
 };
 </script>
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
 .app-bar {
-  border-bottom: 1px solid $white-darken;
+  // border-bottom: 1px solid $white-darken;
   background-color: $white !important;
   height: 32px;
+  cursor: pointer;
 }
 .categories {
   gap: 10px;

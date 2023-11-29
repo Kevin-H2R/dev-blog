@@ -14,9 +14,16 @@
   <v-col cols="12" sm="10" md="8" class="articles-container">
     <v-row wrap justify="center">
       <v-col v-for="(article, index) in articles" :key="'article_' + index"
-        cols="12" sm="8" md="6"
+        cols="12" sm="8" md="6" 
       >
-        <v-card :to="'/article/' + article.link" class="article-card" hover>
+      <div class="article-thumbnail" @click="goToArticle(article.link)">
+        <v-img  class="article-thumbnail__image" 
+          :src="getArticleImg(article.thumbnail)"/>
+        <div class="article-thumbnail__date">{{ article.date }}</div>
+        <div class="article-thumbnail__title">{{ article.title }}</div>
+        <div class="article-thumbnail__subtitle">{{ article.subtitle }}</div>
+      </div>
+        <!-- <v-card :to="'/article/' + article.link" class="article-card" hover>
           <v-img :src="getArticleImg(article.thumbnail)" class="article-card__image"/>
           <v-card-title>
             {{ article.title }}
@@ -29,7 +36,7 @@
               Read
             </v-btn>
           </v-card-actions>
-        </v-card>
+        </v-card> -->
       </v-col>
     </v-row>
   </v-col>
@@ -38,21 +45,51 @@
 </template>
 <script>
 import { articles } from '@/data/articles';
+import router from '@/router';
 
 export default {
     name: 'ArticleListView',
     computed: {
-        articles: () => articles.reverse()
+        articles: () => articles
     },
     methods: {
         getArticleImg: function(thumbnail) {
             return require('@/assets/' + thumbnail)
+        },
+        goToArticle: function (link) {
+          router.push('/article/' + link)
         }
     }
 }
 </script>
 <style lang="scss" scoped>
 @import "@/styles/theme.scss";
+
+.article-thumbnail {
+  cursor: pointer;
+  margin: 25px 0;
+  &:hover &__title {
+    text-decoration: underline;
+  }
+  &:hover &__image {
+    transform: translateY(-5px);    
+  }
+  &__title {
+    font-size: 2em;
+  }
+  &__subtitle {
+
+  }
+  &__date {
+    font-size: 0.8em;
+    margin: 5px 0;
+  }
+  &__image {
+    border-radius: 20px; 
+    aspect-ratio: 1.5;
+    transition: all ease-in-out 200ms;
+  }
+}
 .article-view {
   height: 100%;
 }
