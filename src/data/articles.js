@@ -39,7 +39,7 @@ export const articles = [
     id: 5,
     title: "Seoul Tech Impact Hackathon 2023",
     link: "seoul-tech-impact-hackathon",
-    subtitle: "Coding for a cause",
+    subtitle: "Participated in a 24h hackathon. Describing the project we picked, how I lead the technical choices and some things I learnt.",
     date: "2023-11-28",
     category: "Project",
     thumbnail: "seoulTechImpact.jpg",

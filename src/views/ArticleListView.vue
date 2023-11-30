@@ -77,9 +77,6 @@ export default {
   &__title {
     font-size: 2em;
   }
-  &__subtitle {
-
-  }
   &__date {
     font-size: 0.8em;
     margin: 5px 0;
