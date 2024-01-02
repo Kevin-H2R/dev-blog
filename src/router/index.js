@@ -8,6 +8,7 @@ import OotdEpisode1 from "../views/articles/OotdEpisode1";
 import OotdEpisode2 from "../views/articles/OotdEpisode2";
 import AwsLambdaFiles from "../views/articles/AwsLambdaFiles";
 import SeoulHackathon from "../views/articles/SeoulHackathon"
+import ProjectsView from "../views/ProjectsView"
 Vue.use(VueRouter);
 
 const routes = [
@@ -41,6 +42,11 @@ const routes = [
     name: "seoul-hackathon",
     component: SeoulHackathon,
   },
+  {
+    path: "/projects",
+    name: 'projects',
+    component: ProjectsView
+  }
 ];
 
 const router = new VueRouter({

@@ -10,6 +10,9 @@
     <div class="main__caption">
       Coding problems, architecture solutions, anything I feel relevent sharing.
     </div>
+    <div class="main__caption">
+      Take a look at my <router-link to="/projects">projects.</router-link>
+    </div>
   </v-col>
   <v-col cols="12" sm="10" md="8" class="articles-container">
     <v-row wrap justify="center">

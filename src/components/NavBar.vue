@@ -1,10 +1,10 @@
 <template>
-  <div class="d-flex align-center justify-space-between app-bar" @click="goHome()">
+  <div class="d-flex align-center justify-space-between app-bar">
     <router-link to="/" style="height: 32px;">
       <img src="@/assets/logo.jpeg" class="logo" />
     </router-link>
     <div>Kebinou's dev blog</div>
-    <div></div>
+    <v-btn to="/projects" plain>Projects</v-btn>
   </div>
 </template>
 <script>
